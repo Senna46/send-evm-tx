@@ -1,0 +1,20 @@
+{
+  "name": "send-evm-tx",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx ts-node src/send-transactions.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "csv-parser": "^3.2.0",
+    "csv-writer": "^1.6.0",
+    "dotenv": "^17.0.1",
+    "ethers": "^6.13.1",
+    "fast-csv": "^5.0.2"
+  }
+}
